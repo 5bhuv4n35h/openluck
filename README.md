@@ -1,7 +1,10 @@
 # openfuck_oscp
+
 ## modified the code on line 671
 
-## download ptrace-kmod.c from https://packetstormsecurity.com/files/download/30973/ptrace-kmod.c s
+
+## download ptrace-kmod.c from https://packetstormsecurity.com/files/download/30973/ptrace-kmod.c 
+
 
 ## host  ptrace-kmod.c in apache server and replace the url with apache  
 
