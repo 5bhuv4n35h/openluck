@@ -1,6 +1,6 @@
 # openfuck_oscp
 
-
+##  mod_ssl < 2.2.7
 ## modified the code on line 671
 
 
